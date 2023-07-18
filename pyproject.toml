@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "codespaceproject"
+version = "0.1.0"
+description = "ml project"
+authors = ["Jorge Ximenez <jorge_x93@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.1"
+jupyter = "^1.0.0"
+pandas = "^2.0.3"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
